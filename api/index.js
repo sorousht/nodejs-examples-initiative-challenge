@@ -1,3 +1,5 @@
 const dependencies = require("./dependencies");
 const minimumSecure = require("./minimum-secure");
-module.exports = { dependencies, minimumSecure };
+const latestReleases = require("./latest-releases");
+
+module.exports = { dependencies, minimumSecure, latestReleases };
