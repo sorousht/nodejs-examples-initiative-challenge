@@ -8,3 +8,5 @@ app.get("/latest-releases", latestReleases);
 const PORT = 3000;
 
 app.listen(PORT);
+
+module.exports = app;
